@@ -5,10 +5,16 @@ Eat-Da-Burger! restaurant app for UW Coding Bootcamp
 * https://candicechin.com
 
 ## Technologies Used
-JavaScript, jQuery, Express Server and to handle routing, Heroku deployment, Express and Path npm packages, node.JS, Git, GitHub, HTML, Bootstrap
+JavaScript, jQuery, Express Server and to handle routing, Heroku deployment, Express and Path npm packages, MySQL, node.JS, Git, GitHub, HTML, CSS
+
+* node.js - https://nodejs.org/en/
+* heroku-cli NPM Package - https://www.npmjs.com/package/heroku-cli
+* body-parser NPM Package - https://www.npmjs.com/package/body-parser
+* express NPM Package - https://www.npmjs.com/package/express
+* path NPM Package - https://www.npmjs.com/package/path
 
 ## Overview
-n this assignment, you'll create a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). Be sure to follow the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML.
+This application is a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!). It follows the MVC design pattern; use Node and MySQL to query and route data in your app, and Handlebars to generate your HTML.
 
 * Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
 * Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
@@ -17,7 +23,7 @@ n this assignment, you'll create a burger logger with MySQL, Node, Express, Hand
 * Check out this generic video of the app for a run-through of how it works:
 https://www.youtube.com/watch?v=msvdn95x9OM&feature=youtu.be
 
-## Link to Deployed Version of App
+## Links to Deployed Version of App
 https://github.com/cchin1/burger
 https://git.heroku.com/warm-journey-   TBD TBD
 
