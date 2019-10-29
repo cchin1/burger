@@ -51,6 +51,7 @@ var orm = {
     // Add a burger to the db.
     insertOne: function(table, cols, vals, cb) {
         var queryString = "INSERT INTO " + table;
+
         queryString += " (";
         queryString += cols.toString();
         queryString += ") ";
@@ -64,12 +65,14 @@ var orm = {
             if (err) {
                 throw err
             }
+
             cb(result);
         });
     },
     // Set burger devoured status to true.
     updateOne: function(table, objColVals, condition, cb) {
         var queryString = "UPDATE " + table;
+
         queryString += " SET ";
         queryString += objToSql(objColVals);
         queryString += " WHERE ";
@@ -89,8 +92,6 @@ var orm = {
         var queryString = "DELETE FROM " + table;
         queryString += " WHERE ";
         queryString += condition;
-
-        console.log(queryString);
 
         connection.query(queryString, function(err, result) {
             if (err) {
