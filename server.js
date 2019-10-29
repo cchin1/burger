@@ -1,7 +1,3 @@
-
-
-require('dotenv').config();
-
 // Dependencies
 var express = require("express");
 var bodyParser = require("body-parser");
@@ -12,10 +8,10 @@ var PORT = process.env.PORT || 3000;
 // Serve static content for the app from the "public" directory in the application directory.
 app.use(express.static("public"));
 
-// parse application/x-www-form-urlencoded
+// Parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// parse application/json
+// Parse application/json
 app.use(bodyParser.json());
 
 // Set Handlebars.

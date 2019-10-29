@@ -1,9 +1,7 @@
-var dotenv = require('dotenv').config({path: path.join(__burger, '.env')})
-
+//var dotenv = require('dotenv').config();
 
 //Inside the connection.js file, setup the code to connect Node to MySQL.
 var mysql = require("mysql");
-
 
     var connection = mysql.createConnection({
         host: "localhost",

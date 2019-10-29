@@ -7,11 +7,13 @@
 }
 
 .jumbotron > h1 {
-    font-family: 'Creepster', cursive;
+    font-family: 'Creepster';
+    color: #fff;
 }
 
 #newburger {
     border-radius: 5px;
+    font-weight: bold;
 }
 
 #color-override {
