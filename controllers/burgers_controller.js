@@ -1,3 +1,4 @@
+//Here is where all the functions that will do the routing for the app are written
 //Inside the burgers_controller.js file, import the following:
 
 //Express
@@ -35,7 +36,7 @@ router.post("/api/burgers", function (req, res) {
 });
 // Set burger devoured status to true.
 router.put("/api/burgers/:id", function(req, res) {
-    var condition = "id = " + req.params.id;
+    var condition = "id = ${req.params.id}";
 
     console.log("condition", condition);
 
@@ -52,7 +53,7 @@ router.put("/api/burgers/:id", function(req, res) {
 });
 // Delete burger from db.
 router.delete("/api/burgers/:id", function(req, res) {
-    var condition = "id = " + req.params.id;
+    var condition = "id = ${req.params.id}";
 
     burger.deleteOne(condition, function(result) {
         if (result.changedRows === 0) {
