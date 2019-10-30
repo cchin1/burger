@@ -3,6 +3,7 @@ Eat-Da-Burger! restaurant app for UW Coding Bootcamp
 * 14-Week 02-Homework
 * Lead Developer: Candice Chin
 * https://candicechin.com
+* https://whispering-beyond-57477.herokuapp.com/
 
 ## Technologies Used
 JavaScript, jQuery, Express Server and to handle routing, Heroku deployment, Express and Path npm packages, MySQL, node.JS, Git, GitHub, HTML, CSS
@@ -25,7 +26,7 @@ https://www.youtube.com/watch?v=msvdn95x9OM&feature=youtu.be
 
 ## Links to Deployed Version of App
 https://github.com/cchin1/burger
-https://git.heroku.com/warm-journey-   TBD TBD
+https://whispering-beyond-57477.herokuapp.com/
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
